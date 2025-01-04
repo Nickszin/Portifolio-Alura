@@ -1,0 +1,153 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f2f2f2; 
+    color: #464646 
+  }
+  
+  header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    background: #ffffff; 
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  section h2 {
+    color: #464646; 
+  }
+  
+  form label {
+    display: block;
+    margin: 0.5rem 0 0.2rem;
+    color: #464646; 
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background: #464646; 
+    color: #fff;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    width: 100%; 
+    position: relative;
+    left: 0; 
+    right: 0; 
+  }
+  
+.perfil-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%; 
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  padding: 2rem;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.titulo-conteudo {
+  display: flex;
+  align-items: center;
+}
+
+.titulo-texto h1 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.titulo-texto p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.habilidades__lista {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.habilidades__elemento {
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.habilidades__icone {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.habilidades__nome {
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: 500;
+}
+
+.formacao_icone{
+  width: 200px;
+  height: 110px;
+}
+
+.experiencia_icone{
+  width: 500px;
+  height: 300px;
+
+}
